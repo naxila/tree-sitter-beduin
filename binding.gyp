@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "tree_sitter_json_binding",
+      "target_name": "tree_sitter_beduin_binding",
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "src"

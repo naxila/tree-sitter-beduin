@@ -18,12 +18,12 @@ grammar to a tree-sitter [Parser][], and then use the parser to parse some code:
 ```rust
 let code = r#"
 {
-  "name": "tree-sitter-json",
-  "description": "JSON parsing for tree-sitter",
+  "name": "tree-sitter-beduin",
+  "description": "Beduin parsing for tree-sitter",
 }
 "#;
 let mut parser = Parser::new();
-parser.set_language(tree_sitter_json::language()).expect("Error loading JSON grammar");
+parser.set_language(tree_sitter_beduin::language()).expect("Error loading JSON grammar");
 let parsed = parser.parse(code, None);
 ```
 

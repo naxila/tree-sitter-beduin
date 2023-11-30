@@ -1,5 +1,5 @@
-#ifndef TREE_SITTER_JSON_H_
-#define TREE_SITTER_JSON_H_
+#ifndef TREE_SITTER_BEDUIN_H_
+#define TREE_SITTER_BEDUIN_H_
 
 typedef struct TSLanguage TSLanguage;
 
@@ -7,10 +7,10 @@ typedef struct TSLanguage TSLanguage;
 extern "C" {
 #endif
 
-extern TSLanguage *tree_sitter_json();
+extern TSLanguage *tree_sitter_beduin();
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // TREE_SITTER_JSON_H_
+#endif // TREE_SITTER_BEDUIN_H_

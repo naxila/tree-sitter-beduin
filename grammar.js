@@ -11,7 +11,7 @@
 // @ts-check
 
 module.exports = grammar({
-  name: 'json',
+  name: 'beduin',
 
   extras: $ => [
     /\s/,

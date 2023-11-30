@@ -1,14 +1,14 @@
 [package]
-name = "tree-sitter-json"
-description = "JSON grammar for tree-sitter"
-version = "0.20.1"
+name = "tree-sitter-beduin"
+description = "Beduin grammar for tree-sitter"
+version = "0.1"
 authors = ["Max Brunsfeld <maxbrunsfeld@gmail.com>"]
 license = "MIT"
 readme = "bindings/rust/README.md"
-keywords = ["incremental", "parsing", "json"]
+keywords = ["incremental", "parsing", "beduin"]
 categories = ["parsing", "text-editors"]
-repository = "https://github.com/tree-sitter/tree-sitter-json"
-edition = "2021"
+repository = "https://github.com/naxila/tree-sitter-beduin"
+edition = "2023"
 autoexamples = false
 
 build = "bindings/rust/build.rs"

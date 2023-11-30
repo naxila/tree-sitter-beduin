@@ -1,12 +1,12 @@
 {
-  "name": "tree-sitter-json",
-  "version": "0.20.1",
-  "description": "JSON grammar for tree-sitter",
+  "name": "tree-sitter-beduin",
+  "version": "0.1",
+  "description": "Beduin grammar for tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parser",
     "lexer",
-    "json"
+    "beduin"
   ],
   "author": "Max Brunsfeld",
   "license": "MIT",
@@ -27,7 +27,7 @@
     {
       "scope": "source.json",
       "file-types": [
-        "json"
+        "beduin"
       ],
       "highlights": [
         "queries/highlights.scm"
